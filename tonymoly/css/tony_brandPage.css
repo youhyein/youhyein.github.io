@@ -1,0 +1,56 @@
+/* Brand */
+
+
+#mainBig{width: 960px;	height: 2700px;	background-color: #fff; margin: 0 auto;}
+#head{width: 100%;	height: 106px; background-color: #fff;	}
+#head>h1{width: 360px; height: 66px; float: left; padding-left: 15px; margin-top:20px;}
+h1>img{box-sizing: border-box; }
+
+#head>ul{height: auto;float:right;padding-top:2rem;}
+#head>ul>li {float: left; padding: 5px; margin-bottom: 20px;margin-right: 10px; }
+
+/*-------------*/
+#gnb{width: 960px; height: 62px; background-color: #000; }
+.gnbnv{width: 100%;height: 62px; background-color: #000;list-style-type:none;}
+.gnbnv>li{height: 100%; float:left; color:#fff8a5; display: inline; }
+
+.brand{width: 106px;  background-image: url(../img/tonymoly_for01.jpg);}
+.brand:hover{background-image: url(../img/tonymoly_red_01.jpg);}
+.shop{width: 104px; background-image: url(../img/tonymoly_for02.jpg);}
+.shop:hover{background-image: url(../img/tonymoly_red_02.jpg);}
+.event{width: 108px;background-image: url(../img/tonymoly_for03.jpg);}
+.event:hover{background-image: url(../img/tonymoly_red_03.jpg);}
+.comt{width: 170px;background-image: url(../img/tonymoly_for04.jpg);}
+.comt:hover{background-image: url(../img/tonymoly_red_04.jpg);}
+
+
+
+/*---------------------------*/
+
+#up{width: 100%; height: 286px; background-color: #ed582a;}
+
+/*--------------*/
+
+#adbanner{width: 100%; height: 604px; background-color: #dae252; margin-top: 30px; overflow: hidden; position: relative;}
+.btn{width: 50px; height: 50px; position: absolute; margin-top: 240px; z-index: 100; background-color: transparent;}
+.lt{ left:50px;}
+.gt{right:50px;}
+.btn button{width: 100%; height: 100%; background-color: transparent; font-size: 3rem; font-weight: bold; transition: all 0.5s;}
+.btn button:hover{color:#fff; text-shadow:3px 3px 3px #333;}
+.bannerAll{width: 1000%; height: 100%; margin-left: -100%; overflow: hidden;}
+.bannerAll>li{width: calc(100% / 10); height: 100%; float:left;}
+/*----------*/
+
+#brandId{width: 100%; height: 748px; background-color: #dfd; margin-top: 30px;}
+
+/*------------------------------*/
+
+#jido{width: 100%; height: 435px; background-color: #af4; margin-top: 50px; }
+
+/*------------------------------*/
+.foot{width: 100%; height: 336px;background-color: #f3f3f3; }
+.foot_pi{ margin: 0 auto; margin-top: 50px; margin-left: 180px; float:left;}
+.foot_pi>li{font-size:90%; color: #999; float:left; padding:0 0.5rem; border-right:1px solid #ccc;}
+.foot_pi>li:last-child{border-right: 0;}
+p{font-size:80% ; color:#777;  margin-top: 70px; margin-left: 100px;}
+.juTony{font-size:60%; margin-left: 350px;}

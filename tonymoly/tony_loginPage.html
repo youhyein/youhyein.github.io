@@ -1,0 +1,118 @@
+<!DOCTYPE html> 
+<html lang="ko-KR">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="./css/bin/reset.css">
+  <link rel="stylesheet" href="./css/tony_loginPage.css">                                    
+  <title>login</title>
+  <style></style>
+
+  <script src="./js/jquery-1.12.4.min.js"></script>
+
+  <script src="./js/jquery-ui.min.js"></script>
+
+</head>
+<body>
+<div id="hum_01">
+ <form action="" method="">
+  <fieldset>
+    <legend>회원 구분</legend>
+    <ul>
+      <li>
+        <em>회원 카드</em>
+        <label for="hm_01">신규 등록</label>
+        <input type="radio" name="nonHm" id="hm_01">
+        <label for="hm_01">오프라인 회원 등록 카드</label>
+        <input type="radio" name="nonHm" id="hm_02">
+      </li>
+    </ul>
+  </fieldset>
+
+  <fieldset>
+    <legend>기본 정보 </legend>
+    <ul>
+      <li class="tx_01">
+        <label for="tx_01">아이디</label>
+        <input type="text" name="id" id="tx_01">
+      </li>
+      <li class="tx_02">
+        <label for="tx_02">비밀번호</label>
+        <input type="password" name="pass" id="tx_02">
+      </li> 
+        
+      <li class="tx_03">
+        <label for="tx_03">비밀번호 확인</label>
+        <input type="password" name="pass_02" id="tx_03">
+        </li>
+      <li>
+        <label for="tx_04">비밀번호 확인 질문</label>
+        <select class="sel" name="sunsa">
+                  <option value="">기억에 남는 추억의 장소는?</option>
+                  <option value="">자신의 인생 좌우명은?</option>
+                  <option value="">자신의 보물 제1호는?</option>
+                  <option value="">가장 기억에 남는 선생님의 성함은?</option>
+                  <option value="">추억하고 싶은 날짜가 있다면?</option>
+                  <option value="">가장 인상 깊게 읽은 책의 이름은?</option>
+                  <option value="">읽은 책 중에서 가장 인상이 깊었던 구절은?</option>
+                  <option value="">학창시절 처음으로 좋아했던 이성의 이름은?</option>
+                  <option value="">다시 태어나면 되고 싶은 것은? </option>
+                  <option value="">내가 좋아하는 캐릭터는?</option>
+                </select>
+      </li>
+      <li>
+       <label for="tx_05">비밀번호 확인 답변</label>
+       <input type="text" name="text" id="tx_05">
+       </li>
+
+      <li>
+        <label for="tx_06">주소</label>
+        <input type="text" name="juso" id="tx_06">
+        <input type="button" name="btn" id="tx_06" value="우편번호"><br />
+        <input type="text" name="juso_01" id="tx_06">기본 주소<br />
+        <input type="text" name="juso_03" id="tx_06"> 나머지 주소 
+
+      </li>
+      <li>
+        <label for="tel">일반전화</label>
+        <input type="tel" name="tel" id="tx_07">
+      </li>
+
+      <li>
+        <label for="tel">휴대전화</label>
+        <input type="tel" name="usertel" id="tx_08">
+      </li>
+      </li>
+
+      <li>
+      <em>SNS 수신여부</em>
+      <label for="rad">예</label>
+       <input type="radio" name="rad_01" id="rad_02">
+      <label for="rad">아니오</label>
+       <input type="radio" name="rad_02" id="rad_02">
+      <p>쇼핑몰에서 제공하는 유익한 이벤트 소식을 SMS로 받으실수 있습니다.</p>
+
+
+      </li>
+
+      <li>
+        <label for="email">이메일</label>
+        <input type="email" name="useremail" id="tx_10">
+      </li>
+
+      <li>
+       <em>이메일 수신여부</em>
+      <label for="rad">예</label>
+       <input type="radio" name="rad_01" id="rad_02">
+      <label for="rad">아니오</label>
+       <input type="radio" name="rad_02" id="rad_02">
+
+      </li>
+
+    </ul>
+  </fieldset>
+
+ </form> 
+ </div>
+</body>
+</html>

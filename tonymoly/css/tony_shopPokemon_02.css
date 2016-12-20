@@ -1,0 +1,104 @@
+#mainBig{width: 960px;	height: 2800px;	background-color: #fff; margin: 0 auto;}
+#head{width: 100%;	height: 106px; background-color: #fff;}
+#head>h1{width: 360px; height: 66px; float: left; padding-left: 15px; margin-top:20px;}
+h1>img{box-sizing: border-box; }
+
+#head>ul{height: auto;float:right;padding-top:2rem;}
+#head>ul>li {float: left; padding: 5px; margin-bottom: 20px;margin-right: 10px; }
+
+/*-------------*/
+#gnb{width: 960px; height: 62px; background-color: #000; }
+.gnbnv{width: 100%;height: 62px; background-color: #000;list-style-type:none;}
+.gnbnv>li{height: 100%; float:left; color:#fff8a5; display: inline; }
+
+.brand{width: 106px;  background-image: url(../img/tonymoly_for01.jpg);}
+.brand:hover{background-image: url(../img/tonymoly_red_01.jpg);}
+.shop{width: 104px; background-image: url(../img/tonymoly_for02.jpg);}
+.shop:hover{background-image: url(../img/tonymoly_red_02.jpg);}
+.event{width: 108px;background-image: url(../img/tonymoly_for03.jpg);}
+.event:hover{background-image: url(../img/tonymoly_red_03.jpg);}
+.comt{width: 170px;background-image: url(../img/tonymoly_for04.jpg);}
+.comt:hover{background-image: url(../img/tonymoly_red_04.jpg);}
+
+/* --------------------------------------- */
+
+#skinName{width: 100%; height: 174px;background-color: #fff;}
+#skinName>h2{width: 345px; height: 102px; float:left; padding-left: 15px;margin-top: 48px; border-bottom: 55px;}
+h2>img{box-sizing: border-box;}
+
+/*--------------*/
+#mainIm{width: 100%; height: 374px; background-color: #fff; }
+
+.md{width: 480px; height: 100%; background-color: #a88; float:left;}
+.best{width: 480px; height: 100%; float:left;}
+
+/*----------------------*/
+
+#fullBox{width: 100%; height: 300px; background-color: #fff; background-image: url(../img/box_01.png);  }
+h2{font-size: 150%; padding-top: 20px; color:#ed174b;}
+.sun_01{float:left; margin-left: 10px; margin-top: 100px;}
+.sun_01>li{float:left; margin-left: 1rem; font-size: 110% padding:0 0.5rem; }
+
+
+.sun_02{float: left; margin-left: 10px; margin-top: 50px;}
+.sun_02>li{float:left; margin-left: 1rem; font-size: 110% padding:0 0.5rem; }
+
+
+/*-------------------*/
+
+#suntec{width: 100%; height: 180px; background-color: #fff; }
+.sun_03{float:left; margin-left: 10px; margin-top: 100px;}
+.sun_03>li{float:left; margin-left: 1rem;}
+
+.sel{float:right; margin-top: 100px; margin-right: 100px;}
+
+/*-------------*/
+
+#mainBox{width: 100%; height: 1200px; background-color: #fff; background-image: url(../img/box_02.png);}
+.kingBox>div{width: 215px; height: 300px; margin-top: 20px; margin-left: 20px; float:left; margin-top: 40px;}
+
+
+.box_01{ background-image: url(../img/shop_02/pka_22.png);float:left;}
+.box_01:hover{background-image: url(../img/shop_02/ped_22.png);}
+
+.box_02{ background-image: url(../img/shop_02/pka_13.png); float:left;}
+.box_02:hover{background-image: url(../img/shop_02/ped_13.png);}
+
+.box_03{ background-image: url(../img/shop_02/pka_14.png); float:left;}
+.box_03:hover{background-image: url(../img/shop_02/ped_14.png);}
+
+.box_04{ background-image: url(../img/shop_02/pka_15.png); float:left;}
+.box_04:hover{background-image: url(../img/shop_02/ped_15.png);}
+
+.box_05{ background-image: url(../img/shop_02/pka_16.png); float:left;}
+.box_05:hover{background-image: url(../img/shop_02/ped_16.png);}
+
+.box_06{ background-image: url(../img/shop_02/pka_17.png); float:left;}
+.box_06:hover{background-image: url(../img/shop_02/ped_17.png);}
+
+.box_07{ background-image: url(../img/shop_02/pka_18.png); float:left;}
+.box_07:hover{background-image: url(../img/shop_02/ped_18.png);}
+
+.box_08{ background-image: url(../img/shop_02/pka_19.png); float:left;}
+.box_08:hover{background-image: url(../img/shop_02/ped_19.png);}
+
+.box_09{ background-image: url(../img/shop_02/pka_20.png); float:left;}
+.box_09:hover{background-image: url(../img/shop_02/ped_20.png);}
+
+.box_10{ background-image: url(../img/shop_02/pka_21.png); float:left;}
+.box_10:hover{background-image: url(../img/shop_02/ped_21.png);}
+
+
+.page{width: 410px; height: 90px; float:left;
+ background-color: transparent; margin-left: 430px; margin-top: 75px;}
+.page>li{ margin:1rem; float:left;}
+
+/* --------------------- */
+
+
+.foot{width: 100%; height: 336px;background-color: #f3f3f3; }
+.foot_pi{ margin: 0 auto; margin-top: 50px; margin-left: 180px; float:left;}
+.foot_pi>li{font-size:90%; color: #999; float:left; padding:0 0.5rem; border-right:1px solid #ccc;}
+.foot_pi>li:last-child{border-right: 0;}
+p{font-size:80% ; color:#777;  margin-top: 70px; margin-left: 100px;}
+.juTony{font-size:60%; margin-left: 350px;}
